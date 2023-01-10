@@ -7,7 +7,6 @@ public virtual class ABC{
     integer num2; 
     string str;
     integer sum;
-    integer result;
     integer sub;
      
     num1 = 10;
