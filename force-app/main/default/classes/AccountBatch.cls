@@ -29,7 +29,6 @@ public class AccountBatch implements Database.Batchable<sObject> {
     @Last Modified By:
     *********************************************************/
     public void execute(Database.BatchableContext bc, List<Account> records){
-        system.debug('@@@records:'+records);
         List<Account> lstOfAccountsToUpdate = new List<Account>();
         /**Iterate over the account records and append the account name with Feb 2022 
         and assign the DOB to 01/01/1900  **/
