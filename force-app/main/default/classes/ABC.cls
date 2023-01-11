@@ -8,6 +8,7 @@ public virtual class ABC{
     string str;
     integer sum;
     integer sub;
+    Integer result;
     num1 = 10;
     num2 = 20;
     sum = num1 + num2;
