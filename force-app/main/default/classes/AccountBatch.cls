@@ -11,7 +11,7 @@ public class AccountBatch implements Database.Batchable<sObject> {
     /********************************************************
     @Method Name:start
     @Author : Srinu Reddy
-    @Purpose : Start method will return all the account records 
+    @Purpose : Start method will return all the account record 
                to the execute method    
     *********************************************************
     @Last Modified By:
@@ -30,7 +30,7 @@ public class AccountBatch implements Database.Batchable<sObject> {
     *********************************************************/
     public void execute(Database.BatchableContext bc, List<Account> records){
         List<Account> lstOfAccountsToUpdate = new List<Account>();
-        /**Iterate over the account records and append the account name with Feb 2022 
+        /**Iterate over the account records and append the account name with Feb 2024
         and assign the DOB to 01/01/1900  **/
         for(Account accObject:records){
            accObject.Name = accObject.Name + ' Mar';
